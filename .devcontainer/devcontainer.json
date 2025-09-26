@@ -10,6 +10,11 @@
     "privileged": true,
     "onCreateCommand": "bash .devcontainer/setup.sh",
     "customizations": {
-        "extensions": ["ms-toolsai.jupyter"]
+        "vscode": {
+            "extensions": ["ms-toolsai.jupyter", "nextflow.nextflow", "ms-python.python"]
+        },
+        "codespaces": {
+            "extensions": ["ms-toolsai.jupyter", "nextflow.nextflow", "ms-python.python"]
+        }
     }
 }
