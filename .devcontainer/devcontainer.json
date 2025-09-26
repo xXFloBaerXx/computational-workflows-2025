@@ -12,9 +12,6 @@
     "customizations": {
         "vscode": {
             "extensions": ["ms-toolsai.jupyter", "nextflow.nextflow", "ms-python.python"]
-        },
-        "codespaces": {
-            "extensions": ["ms-toolsai.jupyter", "nextflow.nextflow", "ms-python.python"]
         }
     }
 }
