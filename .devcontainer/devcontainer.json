@@ -1,0 +1,15 @@
+{
+    "name": "ComputationalWorkflows",
+    "image": "nfcore/devcontainer:latest",
+
+    "remoteEnv": {
+        "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+    },
+
+    "remoteUser": "root",
+    "privileged": true,
+    "onCreateCommand": "bash .devcontainer/setup.sh",
+    "customizations": {
+        "extensions": ["ms-toolsai.jupyter"]
+    }
+}
