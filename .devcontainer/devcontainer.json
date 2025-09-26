@@ -13,5 +13,11 @@
         "vscode": {
             "extensions": ["ms-toolsai.jupyter", "nextflow.nextflow", "ms-python.python"]
         }
+    },
+    // More beefy machine on codespaces. May cause warning locally
+    "hostRequirements": {
+        "cpus": 4,
+        "memory": "16gb",
+        "storage": "32gb"
     }
 }
