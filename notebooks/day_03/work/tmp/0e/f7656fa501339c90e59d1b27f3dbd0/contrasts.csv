@@ -1,0 +1,5 @@
+id,variable,reference,target,blocking
+condition_control_treated,condition,SNI_Sal,SNI_oxy,
+condition_treated_baseline,condition,SNI_oxy,Sham_Sal,
+condition_control_treated_test,condition,Sham_Sal,Sham_oxy,
+condition_control_untreated,condition,SNI_Sal,Sham_Sal,
